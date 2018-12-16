@@ -1,2 +1,4 @@
 # COMP546_Project2018
 An algorithm to achieve dataset reduction by Clustering 3D structures of protein-protein interaction interfaces
+
+Protein-Protein interactions (PPIs) are crucial for many biological processes in living organisms. Their importance necessitates the identification and prediction of novel interactions. One of the most common computational approaches for PPI prediction is template-based structural alignment which uses a set of experimentally known PPI interfaces (i.e., templates) to predict new interactions. The bottleneck in template-based prediction is the computational cost due to the one-to-all comparison of the query protein against a database of all known interfaces which includes tens of thousands of templates. In this project, I implemented an algorithm which reduces the list of templates without losing its structural variation; this resulted in a reduced set which then can be used for a faster template-based prediction.
